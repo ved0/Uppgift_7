@@ -71,7 +71,7 @@ i {
 
 .imageDiv {
     position: absolute;
-    height: 1770px;
+    height: 1717px;
     width: 333px;
     margin-left: 25px;
     background-image: linear-gradient(130deg, #eae4e4, #6b7e84);
@@ -81,6 +81,7 @@ i {
 
 footer {
     font-size: 20px;
+    margin:auto;
     color: black;
     text-align: center;
     font-weight: bold;
@@ -96,6 +97,7 @@ footer {
     border-top: 5px solid #6b7e84;
     border-radius: 5px;
     width: 200px;
+    margin:auto;
 }
 
 h1 {
