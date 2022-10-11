@@ -8,11 +8,13 @@ a {
 .container {
     margin-left: 400px;
     max-width: 790px;
+    min-width: 790px;
     font-size: 20px;
     padding-top: 25px;
     color: #2b3c44;
 }
-.projects1{
+
+.projects1 {
     display: inline;
 }
 
@@ -23,15 +25,18 @@ a {
 .otherProjects {
     padding-left: 30px;
 }
+
 #intro-container p {
     text-align: left;
-    
+
 }
 
-.main-nav{
+.main-nav {
     background-image: linear-gradient(45deg, #eae4e4, #6b7e84);
     background-repeat: no-repeat;
     background-size: 85%;
+    max-width: 1400px;
+    min-width: 1400px;
     padding-bottom: 1px;
     margin-left: 25px;
 }
@@ -41,8 +46,8 @@ p {
 
 }
 
-.project{
-    width:100px;
+.project {
+    width: 100px;
     height: 100px;
 }
 
@@ -51,7 +56,7 @@ p {
     text-align: left;
     list-style-type: none;
     margin-left: -30px;
-    
+
 }
 
 .container-main {
@@ -67,8 +72,7 @@ i {
 .imageDiv {
     position: absolute;
     height: 1770px;
-    width: 22%;
-    background-color: white;
+    width: 333px;
     margin-left: 25px;
     background-image: linear-gradient(130deg, #eae4e4, #6b7e84);
     background-repeat: no-repeat;
@@ -128,9 +132,6 @@ h2 {
 
 
 #image {
-    position: absolute;
-    margin-left: 60px;
-    margin-top: 50px;
     width: 222px;
     height: 222px;
     border-radius: 50%;
@@ -141,7 +142,7 @@ h2 {
 }
 
 .contact {
-    padding-top: 250px;
+    padding-top: 40px;
     text-align: center;
     font-weight: bold;
     font-size: 18px;
