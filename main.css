@@ -4,6 +4,7 @@ a {
 
 }
 
+
 .container {
     margin-left: 400px;
     max-width: 790px;
@@ -24,6 +25,15 @@ a {
 }
 #intro-container p {
     text-align: left;
+    
+}
+
+.main-nav{
+    background-image: linear-gradient(45deg, #eae4e4, #6b7e84);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    padding-bottom: 1px;
+    margin-left: 25px;
 }
 
 p {
@@ -56,7 +66,7 @@ i {
 
 .imageDiv {
     position: absolute;
-    height: 1805px;
+    height: 1770px;
     width: 22%;
     background-color: white;
     margin-left: 25px;
